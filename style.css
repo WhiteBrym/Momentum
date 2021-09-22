@@ -1,11 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.conteiner {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+}
+.input-text {
+  width: 150px;
+  margin: auto;
+}
 .form,
 .gretings {
   display: none;
+  color: aliceblue;
+  font-size: 40px;
 }
 
 .showing {
   display: block;
 }
+
+.button-css {
+  margin-left: 20px;
+  width: 36px;
+  height: 36px;
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -22,4 +50,12 @@
   top: 0px;
   left: 0px;
   animation: fadein 0.5s linear;
+}
+.todo {
+  color: rgb(255, 255, 255);
+  list-style-type: none;
+  font-size: 30px;
+}
+.wether {
+  color: white;
 }

@@ -39,6 +39,7 @@ function showTodos(text) {
   const span = document.createElement('span')
   const newId = toDos.length + 1
   btnDel.textContent = '❌'
+  btnDel.classList.add('button-css')
   btnDel.addEventListener('click', deletBtn)
   span.textContent = text
   li.appendChild(span)

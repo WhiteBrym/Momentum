@@ -8,21 +8,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="js-clock">
-      <h1></h1>
+    <div class="conteiner">
+      <span class="js-wether wether"></span>
+      <div class="js-clock clock">
+        <h1></h1>
+      </div>
+      <div>
+        <form class="js-form form input-text">
+          <input placeholder="как вас зовут" />
+        </form>
+        <h2 class="js-gretings gretings"></h2>
+        <form class="js-formTodo input-text">
+          <input type="text" placeholder="добавти задачу" />
+        </form>
+        <ul class="js-todoList todo"></ul>
+      </div>
     </div>
-    <div>
-      <form class="js-form form">
-        <input placeholder="как вас зовут" />
-      </form>
-      <h2 class="js-gretings gretings"></h2>
-      <form class="js-formTodo">
-        <input type="text" placeholder="добавти задачу" />
-      </form>
-      <ul class="js-todoList"></ul>
-      <span class="js-wether"></span>
-    </div>
-
     <script src="clock.js"></script>
     <script src="gretings.js"></script>
     <script src="todo.js"></script>

@@ -11,7 +11,7 @@ function getWether(lat, lon) {
     .then(function (json) {
       const temp = json.main.temp
       const place = json.name
-      spanWether.textContent = `${temp} : ${place}`
+      spanWether.textContent = `${Math.floor(temp)}° : ${place}`
     })
 }
 
